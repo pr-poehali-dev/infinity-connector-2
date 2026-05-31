@@ -116,12 +116,12 @@ const Index = () => {
                   <p className="text-sm text-white/60">Срок аудита</p>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-white mb-2">от 20%</div>
-                  <p className="text-sm text-white/60">Снижение стоимости лида</p>
+                  <div className="text-2xl font-bold text-white mb-2">Честно</div>
+                  <p className="text-sm text-white/60">Говорим только то, что есть</p>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-accent mb-2">100%</div>
-                  <p className="text-sm text-white/60">Конкретные рекомендации</p>
+                  <div className="text-2xl font-bold text-accent mb-2">Конкретно</div>
+                  <p className="text-sm text-white/60">План действий, не вода</p>
                 </div>
               </div>
             </div>
@@ -137,10 +137,10 @@ const Index = () => {
                     <span className="text-sm text-white/60 font-mono">Axora · Отчёт по аудиту</span>
                   </div>
                   {[
-                    { label: "Рекламный бюджет", value: "−35% потерь", color: "text-accent" },
-                    { label: "Конверсия воронки", value: "+2.4×", color: "text-white" },
-                    { label: "CAC", value: "−28%", color: "text-accent" },
-                    { label: "Неэффективные каналы", value: "4 выявлено", color: "text-white/70" },
+                    { label: "Каналы проанализированы", value: "все", color: "text-accent" },
+                    { label: "Воронка продаж", value: "разобрана", color: "text-white" },
+                    { label: "Бюджет", value: "оптимизирован", color: "text-accent" },
+                    { label: "Рекомендации", value: "письменно", color: "text-white/70" },
                   ].map((row, i) => (
                     <div key={i} className="flex justify-between items-center">
                       <span className="text-sm text-white/50">{row.label}</span>
